@@ -14,6 +14,8 @@
 		3F124A8E1C4FFEC500549166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F124A8C1C4FFEC500549166 /* LaunchScreen.storyboard */; };
 		3F124A991C4FFEC500549166 /* College_Profile_BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F124A981C4FFEC500549166 /* College_Profile_BuilderTests.swift */; };
 		3F124AA41C4FFEC500549166 /* College_Profile_BuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F124AA31C4FFEC500549166 /* College_Profile_BuilderUITests.swift */; };
+		3F124AB21C50001B00549166 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F124AB11C50001B00549166 /* College.swift */; };
+		3F124AB41C5000E200549166 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F124AB31C5000E200549166 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3F124A9F1C4FFEC500549166 /* College Profile BuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "College Profile BuilderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F124AA31C4FFEC500549166 /* College_Profile_BuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_Profile_BuilderUITests.swift; sourceTree = "<group>"; };
 		3F124AA51C4FFEC500549166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F124AB11C50001B00549166 /* College.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
+		3F124AB31C5000E200549166 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				3F124A831C4FFEC500549166 /* AppDelegate.swift */,
 				3F124A851C4FFEC500549166 /* ViewController.swift */,
 				3F124A871C4FFEC500549166 /* Main.storyboard */,
+				3F124AB11C50001B00549166 /* College.swift */,
+				3F124AB31C5000E200549166 /* DetailViewController.swift */,
 				3F124A8A1C4FFEC500549166 /* Assets.xcassets */,
 				3F124A8C1C4FFEC500549166 /* LaunchScreen.storyboard */,
 				3F124A8F1C4FFEC500549166 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				3F124A861C4FFEC500549166 /* ViewController.swift in Sources */,
 				3F124A841C4FFEC500549166 /* AppDelegate.swift in Sources */,
+				3F124AB21C50001B00549166 /* College.swift in Sources */,
+				3F124AB41C5000E200549166 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
