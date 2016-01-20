@@ -46,6 +46,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="qas-g1-TuX"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="jGD-UN-clp"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <animations/>
@@ -55,6 +59,10 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="edit" id="SEC-uJ-8mT"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="hBD-0y-w1O"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="editbButton" destination="SEC-uJ-8mT" id="18w-AI-0f3"/>
+                        <outlet property="tableView" destination="GRy-TL-ch8" id="09L-4U-jaV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
