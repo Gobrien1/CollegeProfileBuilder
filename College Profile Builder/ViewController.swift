@@ -15,11 +15,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var tableView: UITableView!
     
     var colleges : [College] = []
+    
+    override func viewDidAppear(animated: Bool)
+    {
+        super.viewDidAppear(animated)
+    }
 
     override func viewDidLoad()
     {
         super.viewDidLoad()
         editbButton.tag = 0
+        colleges.append(College(name: "Illinois State", location: "Illinois", numberOfStudents: 20788, image: UIImage(named :"IllinoisState")!))
+        colleges.append(College(name: "Purdue", location: "Indiana", numberOfStudents: 38770, image: UIImage(named :"Purdue")!))
+        colleges.append(College(name: "Harper", location: "Illinois", numberOfStudents: 56441, image: UIImage(named :"Harper")!))
     }
 
 
